@@ -1,6 +1,21 @@
-#include  "SobreCargas.hpp"
 
-int main() {
-    cout<<"Hola GitHub ando programando en Clion"<<endl;
+#include  "SobreCargas.hpp"
+#include  "Persona.hpp"
+
+int main(int argc, char** argv) {
+    struct Persona persona;
+    // persona.dni = 77420924;
+    // strcpy(persona.nombre, "Juan Perez");
+    // persona.sueldo = 3500.0;
+    // cout<<persona.dni<< endl;
+    // cout<<persona.nombre<<endl;
+    // cout<<persona.sueldo<<endl;
+    // //sobrecargar de <<
+    // cout<<persona;
+    struct Persona persona2;
+    //sobrecarga de >>
+    cin>>persona2;
+    cout<<persona2.dni;
+
     return 0;
 }
