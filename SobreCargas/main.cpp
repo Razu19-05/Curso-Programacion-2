@@ -3,6 +3,7 @@
 #include  "Persona.hpp"
 
 int main(int argc, char** argv) {
+//CLASE DE SOBRE CARGAR DE OPERADORES
     struct Persona persona;
     persona.dni = 77420924;
     strcpy(persona.nombre, "Juan Perez");
@@ -10,7 +11,7 @@ int main(int argc, char** argv) {
     cout<<persona.dni<< endl;
     cout<<persona.nombre<<endl;
     cout<<persona.sueldo<<endl;
-    // //sobrecargar de <<
+    //sobrecargar de <<
     cout<<persona;
     struct Persona persona2;
     //sobrecarga de >>
@@ -18,5 +19,11 @@ int main(int argc, char** argv) {
     cout<<persona2;
     persona2.sueldo += 30.5;
     cout<<persona2;
+//CLASE DE SOBRE CARGA DE FUNCIONES
+    int a, b;
+    a = 10;
+    b = 20;
+    cout<<f(a)<<endl;
+    cout<<f(a,b)<<endl;
     return 0;
 }

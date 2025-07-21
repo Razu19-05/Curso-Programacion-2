@@ -19,3 +19,13 @@ istream & operator >> (istream & in, struct Persona& p){
 void operator += (struct Persona& p, double porcentaje) {
     p.sueldo += (1+p.sueldo/porcentaje);
 }
+
+//------------------------------------------------------------------
+
+int f (int a) {
+    return a+10;
+}
+
+int f(int a, int b) {
+    return a+b;
+}
