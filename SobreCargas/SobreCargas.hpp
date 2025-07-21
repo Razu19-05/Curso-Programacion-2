@@ -8,4 +8,5 @@ ostream & operator << (ostream &, const struct Persona &);
 
 istream & operator >> (istream &, struct Persona&);
 
+void operator += (struct Persona&, double);
 #endif //SOBRECARGAS_HPP
