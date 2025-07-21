@@ -3,4 +3,7 @@ project(SobreCargas)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(SobreCargas main.cpp)
+add_executable(SobreCargas main.cpp
+        Utils.h
+        SobreCargas.cpp
+        SobreCargas.hpp)
