@@ -17,9 +17,9 @@ int leerFecha(ifstream &input) {
 }
 
 ifstream & operator >> (ifstream & in, struct Falta& f) {
-    int id;
-    in>>id;
-    in.get(); //Leer la coma
+    // int id;
+    // in>>id;
+    // in.get(); //Leer la coma
     f.codigo = leerCadena(in,','); //char*
     f.fecha = leerFecha(in);
     in>>f.monto;
@@ -31,8 +31,7 @@ ifstream & operator >> (ifstream & in, struct Falta& f) {
 
 ofstream & operator << (ofstream & out,const struct Falta& f) {
     out<<setprecision(2)<<fixed;
-    out<<setw(ESP_COL)<<f.codigo<<setw(ESP_COL)<<f.fecha<<setw(ESP_COL)<<f.monto;
-    out<<setw(ESP_COL)<<f.gravedad<<setw(ESP_COL*2)<<f.descripcion<<endl;
+    out<<"["<<f.codigo<<"]"<<f.descripcion<<"|"<<f.monto<<"|Gravedad: "<<f.gravedad;
     return out;
 }
 
@@ -44,7 +43,9 @@ ifstream & operator >> (ifstream & in,struct Conductor& c) {
 }
 
 ofstream & operator << (ofstream & out ,const struct Conductor& c) {
-    out<<setw(ESP_COL)<<c.dni<<setw(ESP_COL)<<c.nombre;
+    out<<"DNI: "<<c.dni<<endl;
+    out<<"Nombre: "<<c.nombre<<endl;
+    out<<"Faltas"<<endl;
     if (c.n_faltas != 0)
         for(int i=0;i<c.n_faltas;i++)
             out<<c.faltas[i]<<endl;

@@ -15,6 +15,7 @@
 #define MAX_CADENA 100
 #define ESP_COL 20
 #define MAX_FALTAS 30
+#define MAX_CONDUCTORES 10
 
 using namespace std;
 
