@@ -1,16 +1,25 @@
-#include <iostream>
-
-// TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-int main() {
-    // TIP Press <shortcut actionId="RenameElement"/> when your caret is at the <b>lang</b> variable name to see how CLion can help you rename it.
-    auto lang = "C++";
-    std::cout << "Hello and welcome to " << lang << "!\n";
-
-    for (int i = 1; i <= 5; i++) {
-        // TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        std::cout << "i = " << i << std::endl;
-    }
+#include "SobreCargas.hpp"
+#include "Funciones.hpp"
+#include  "Estructuras.hpp"
+int main(int argc, char** argv) {
+    Falta f, f1;
+    Conductor c;
+    //abrir archivos
+    ifstream inputFaltas ("papeletas.csv",ios::in);
+    ifstream inputConductores("constructores.csv",ios::in);
+    ofstream output ("Reporte.txt",ios::out);
+//Haciendo las SobreCargas antes de hacer el problema
+    //SobreCarga de Leer e Imprimir
+    inputFaltas>>f;
+    inputFaltas>>f1;
+    output<<f<<endl;
+    inputConductores>>c;
+    output<<c<<endl;
+    //SobreCarga de Comparar y agregar
+    cout<<(c<123456789);
+    c += f;
+    output<<c<<endl;
+//Resolviendo el problema
 
     return 0;
-    // TIP See CLion help at <a href="https://www.jetbrains.com/help/clion/">jetbrains.com/help/clion/</a>. Also, you can try interactive lessons for CLion by selecting 'Help | Learn IDE Features' from the main menu.
 }
