@@ -1,0 +1,13 @@
+DNI: 12345678
+Nombre: Juan Perez
+Faltas
+[F001]Paso de luz roja|350.53|Gravedad: Grave
+[F003]Exceso de velocidad|250.45|Gravedad: Moderada
+DNI: 87654321
+Nombre: Ana Garcia
+Faltas
+[F002]Mal estacionado|150.20|Gravedad: Leve
+DNI: 11223344
+Nombre: Carlos Diaz
+Faltas
+[F004]Paso de luz roja|350.99|Gravedad: Grave
