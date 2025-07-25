@@ -6,4 +6,5 @@ set(CMAKE_CXX_STANDARD 20)
 add_executable(MemoriaDinamicaExacta main.cpp
         Utils.hpp
         Funciones.cpp
-        Funciones.hpp)
+        Funciones.hpp
+)

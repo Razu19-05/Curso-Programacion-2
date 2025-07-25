@@ -18,13 +18,15 @@ int main(int argc, char** argv) {
     // leerDatosExacto("texto.txt",datos,nDatos);
     // for(int i=0; i<nDatos; i++)cout<<datos[i]<<endl;
 
-    //ahora Con un ejercicio
+    //ahora Con un ejercicio MEMORIA EXACTA
     int *dni;
     char ** nombres, ***cursos;
     cargarAlumnos("Alumnos.csv",dni,nombres);
     imprimirAlumnos("ReporteSoloAlumnos.txt",dni,nombres);
     cargarCursos("Cursos.csv",dni,nombres,cursos);
     imprimirAlumnos("ReporteCompleto.txt",dni,nombres,cursos);
+
+
 
     return 0;
 }
