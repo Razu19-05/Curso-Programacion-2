@@ -25,5 +25,6 @@ int main(int argc, char** argv) {
     imprimirAlumnos("ReporteSoloAlumnos.txt",dni,nombres);
     cargarCursos("Cursos.csv",dni,nombres,cursos);
     imprimirAlumnos("ReporteCompleto.txt",dni,nombres,cursos);
+
     return 0;
 }
