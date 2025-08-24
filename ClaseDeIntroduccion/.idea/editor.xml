@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=668CF449_002DA8FA_002D5F62_002DB652_002D21FFE29C0BF1_002Ff_003ASobreCargas_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=668CF449_002DA8FA_002D5F62_002DB652_002D21FFE29C0BF1_002Ff_003ASobreCargas_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=668CF449_002DA8FA_002D5F62_002DB652_002D21FFE29C0BF1_002Ff_003AUtils_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=668CF449_002DA8FA_002D5F62_002DB652_002D21FFE29C0BF1_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=0735E7D4_002DDB25_002D58F7_002DAE8A_002DF828C0F5B8F3_002Fd_003AFunciones_002Ff_003AFuncions_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=0735E7D4_002DDB25_002D58F7_002DAE8A_002DF828C0F5B8F3_002Fd_003AFunciones_002Ff_003AFuncions_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=0735E7D4_002DDB25_002D58F7_002DAE8A_002DF828C0F5B8F3_002Ff_003AUtils_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=0735E7D4_002DDB25_002D58F7_002DAE8A_002DF828C0F5B8F3_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CDeclarationWithImplicitIntType/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CommentTypo/@EntryIndexedValue" value="DO_NOT_SHOW" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=ConstevalIfIsAlwaysConstant/@EntryIndexedValue" value="WARNING" type="string" />
@@ -121,6 +121,7 @@
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMismatchedClassTags/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingIncludeGuard/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMissingKeywordThrow/@EntryIndexedValue" value="WARNING" type="string" />
+    <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppModulePartitionWithSeveralPartitionUnits/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtAddressOfClassRValue/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtBindingRValueToLvalueReference/@EntryIndexedValue" value="WARNING" type="string" />
     <option name="/Default/CodeInspection/Highlighting/InspectionSeverities/=CppMsExtCopyElisionInCopyInitDeclarator/@EntryIndexedValue" value="WARNING" type="string" />
