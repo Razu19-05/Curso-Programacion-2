@@ -1,0 +1,11 @@
+
+
+#ifndef PROYECTOFUNCIONAL_CADENADECARACTERES_HPP
+#define PROYECTOFUNCIONAL_CADENADECARACTERES_HPP
+struct CadenaDeCaracteres {
+  char *cadena;
+  int longitud;
+  int capacidad;
+};
+
+#endif //PROYECTOFUNCIONAL_CADENADECARACTERES_HPP
