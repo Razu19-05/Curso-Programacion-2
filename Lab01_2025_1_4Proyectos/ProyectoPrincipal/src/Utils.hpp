@@ -7,6 +7,7 @@
 #include  <fstream>
 #include  <cstring>
 #define  MAX_LETRAS 30
+#define  MAX_CONDUCTORES 200
 
 using namespace std;
 
