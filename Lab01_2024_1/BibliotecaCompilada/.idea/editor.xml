@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AAuxiliaryFunctions_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AOverloads_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AOverloads_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AReview_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AReviews_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Fd_003Ascr_002Ff_003AUtils_002Ehpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
-    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=33178A7E_002D412A_002D5E76_002DA0A7_002D80D9B5517C1E_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=9A06BEB2_002D3C4E_002D5A9A_002DA900_002D49DD51A7168F_002Ff_003Amain_002Ecpp/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppClangFormat/EnableClangFormatSupport/@EntryValue" value="false" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/ALIGN_MULTILINE_ARGUMENT/@EntryValue" value="true" type="bool" />
     <option name="/Default/CodeStyle/CodeFormatting/CppFormatting/ALIGN_MULTILINE_BINARY_EXPRESSIONS_CHAIN/@EntryValue" value="true" type="bool" />

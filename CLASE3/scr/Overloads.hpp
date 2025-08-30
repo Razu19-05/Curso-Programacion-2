@@ -13,7 +13,11 @@ void operator<<(struct Reviews &reviews, const char *file_name);
 
 void operator<<(ofstream &output, const struct Review review);
 
-void operator +=(struct Reviews &reviews, int* estadisticas);
+void operator*=(struct Reviews &reviews, double aumento);
+
+void operator++(struct Reviews &reviews);
+
+void operator!(struct Reviews &reviews);
 
 
 #endif //CLASE3_OVERLOADS_HPP

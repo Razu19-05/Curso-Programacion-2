@@ -9,6 +9,9 @@
 struct Reviews {
     struct Review reviews[REVIEWS_MAX];
     int n_reviews; //Cantidad real de datos
+    int n_negatives;
+    int n_positives;
+    int n_neutrals;
 };
 
 #endif //CLASE3_REVIEWS_HPP

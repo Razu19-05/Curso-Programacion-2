@@ -58,9 +58,9 @@ void qsort(int *dni, CadenaDeCaracteres *conductores, CadenaDeCaracteres *placa,
     // Mover el pivot al inicio
     cambiar(dni[izq], conductores[izq], placa[izq], dni[medio], conductores[medio], placa[medio]);
     // Particionar
-    for (int i = izq + 1; i <= der; i++) {
+    for (int i = izq + 1; i <= der; ++i) {
         if (conductores[i] < conductores[izq]) { // ordenar de mayor a menor
-            limite++;
+            limite ++;
             cambiar(dni[i], conductores[i], placa[i], dni[limite], conductores[limite], placa[limite]);
         }
     }
